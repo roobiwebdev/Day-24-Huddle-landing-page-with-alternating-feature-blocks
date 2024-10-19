@@ -1,0 +1,256 @@
+@media screen and (width<=65em) {
+  header {
+    height: 100vh;
+    padding: 1.5em 4em;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2em;
+    text-align: center;
+  }
+
+  .content-1 {
+    margin-top: 4.2em;
+    width: 100%;
+  }
+
+  .content-1 h1 {
+    width: 100%;
+    font-size: 3rem;
+    line-height: 1.2em;
+  }
+
+  .content-1 p {
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+    line-height: 26px;
+    margin-bottom: 1.7em;
+    color: #01242c;
+  }
+
+  .content img {
+    width: 100%;
+  }
+  .container {
+    /* width: 100%; */
+    height: 60vh;
+    margin: 10em 1em 4em 1em;
+  }
+  .grow,
+  .conversation,
+  .user {
+    align-items: center;
+    padding: 2.5em;
+  }
+
+  .content-disc {
+    margin-top: 0em;
+  }
+
+  .content-disc h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.6em;
+  }
+
+  .head-btn {
+    margin-bottom: 2em;
+  }
+
+  .Ready-Tobuild {
+    height: 45%;
+    position: absolute;
+    top: -145px;
+    left: 23%;
+  }
+
+  .box h1 {
+    font-size: 1.4rem;
+    margin-top: 0.5em;
+    margin-bottom: 1.2em;
+  }
+
+  .box button {
+    font-size: 16px;
+    padding: 17px 47px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background: #fe58b9;
+  }
+
+  footer {
+    margin-top: 45em;
+    padding: 5em 2em 1.5em 2em;
+  }
+
+  .location {
+    width: 32%;
+    margin-right: 6em;
+  }
+  .about ul {
+    margin: 0;
+    /* width: 50%; */
+  }
+
+  .carier ul {
+    margin-right: 5em;
+    margin-left: 4em;
+  }
+
+  .Copyright {
+    position: absolute;
+    top: 89%;
+    right: 6em;
+    font-size: 0.8rem;
+    font-weight: 300;
+  }
+
+  @media screen and (width<=760px) {
+    header {
+      height: 100vh;
+      padding: 1em;
+    }
+
+    nav .btn {
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 8px 20px;
+    }
+
+    nav img {
+      width: 40%;
+    }
+
+    .content-1 h1 {
+      width: 100%;
+      font-size: 1.9rem;
+      line-height: 1.2em;
+    }
+
+    .content p {
+      font-size: 1rem;
+      width: 100%;
+      line-height: 24px;
+    }
+
+    .grow,
+    .conversation,
+    .user {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+      padding: 0.6em;
+    }
+    .conversation {
+      flex-direction: column;
+    }
+    .content-disc {
+      text-align: center;
+      width: 100%;
+      margin: 0;
+      padding: 1em 0;
+    }
+
+    .content-disc p {
+      font-size: 0.85rem;
+      line-height: 22px;
+      color: #9fa4a8;
+      width: 100%;
+    }
+
+    .grow img,
+    .conversation img,
+    .user img {
+      margin: 1.3em 0;
+      width: 80%;
+    }
+
+    .Ready-Tobuild {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 95%;
+      height: 20%;
+      border-radius: 15px;
+      position: absolute;
+      top: -85px;
+      left: 10px;
+      color: #01242c;
+      background: white;
+      box-shadow: 0px -16px 33px -18px #ddddddfa;
+    }
+
+    .box h1 {
+      font-size: 1.2rem;
+      margin-top: 0.5em;
+      margin-bottom: 0.6em;
+    }
+
+    .box button {
+      font-size: 0.7rem;
+      font-weight: bold;
+      padding: 12px 10px 10px 10px;
+      margin-bottom: 1em;
+    }
+
+    footer {
+      margin-top: 70em;
+      padding: 4em 1.5em 1.5em 1.5em;
+    }
+
+    .end-content {
+      flex-direction: column;
+    }
+
+    .location {
+      width: 100%;
+      margin: 0em;
+    }
+
+    .location div {
+      display: flex;
+      /* flex-direction: column; */
+    }
+    .location p {
+      margin-bottom: 2em;
+      line-height: 20px;
+      font-weight: 300;
+    }
+
+    .location span:first-child {
+      margin-right: 1em;
+    }
+    .location span {
+      margin-right: 1em;
+    }
+
+    .about ul {
+      margin-right: 0em;
+    }
+
+    .carier ul {
+      margin: 0em;
+    }
+
+    .socials {
+      margin-top: 1em;
+    }
+
+    .Copyright {
+      position: relative;
+      top: 0;
+      right: 0;
+      font-size: 0.8rem;
+      font-weight: 300;
+      margin-top: 2em;
+    }
+  }
+}

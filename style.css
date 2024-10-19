@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Open Sans", system-ui;
+  background: #ffffff;
+  color: #01242c;
+}
+
+header {
+  height: 92vh;
+  padding: 3em 4em 3.3em 4.9em;
+  background-image: url(images/bg-hero-desktop.svg);
+  background-color: #edfbfe;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5%;
+}
+nav img {
+  width: 16%;
+}
+
+nav .btn {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 15px 63px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  background: white;
+  color: #01242c;
+  box-shadow: 0px 2px 10px #ccc;
+}
+
+.container {
+  height: auto;
+  margin: 10em 5.4em 4em 6.5em;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-1 {
+  margin-top: 6.2em;
+}
+
+.content-1 h1 {
+  width: 90%;
+  font-size: 2.5rem;
+  line-height: 1.5em;
+  margin-bottom: 0.7em;
+}
+
+.content-1 p {
+  font-size: 18px;
+  font-weight: 500;
+  width: 90%;
+  line-height: 26px;
+  margin-bottom: 1.7em;
+  color: #01242c;
+}
+
+.head-btn {
+  font-size: 16px;
+  padding: 21px 67px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: #fe58b9;
+}
+
+.content img {
+  object-fit: cover;
+}
+
+.grow,
+.conversation,
+.user {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5em 2.5em 3.7em 7.4em;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 3px rgba(235, 235, 235, 0.849);
+  margin-bottom: 2.5em;
+}
+
+.content-disc {
+  font-size: 18px;
+  width: 47%;
+  margin-top: 6.3em;
+}
+
+.content-disc h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.6em;
+}
+.content-disc p {
+  line-height: 27px;
+  color: #9fa4a8;
+}
+.grow img {
+  margin-top: 1em;
+  width: 37%;
+}
+
+.conversation img {
+  margin-top: 2em;
+  margin-bottom: 1.8em;
+  width: 37%;
+}
+
+.user img {
+  margin-top: 1.4em;
+  margin-bottom: 1.2em;
+  width: 37%;
+}
+
+.Ready-Tobuild {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 56.2%;
+  height: 50%;
+  border-radius: 15px;
+  position: absolute;
+  top: -185px;
+  left: 320px;
+  color: #01242c;
+  background: white;
+  box-shadow: 0px -16px 33px -18px #ddddddfa;
+}
+
+.box h1 {
+  font-size: 2rem;
+  margin-top: 0.5em;
+  margin-bottom: 1.2em;
+}
+
+.box button {
+  font-size: 1.18rem;
+  font-weight: bold;
+  padding: 32px 110px 26px 110px;
+}
+
+footer {
+  width: 100%;
+  background: #01252f;
+  color: #f6fffe;
+  margin-top: 24%;
+  padding: 12em 7.5em 6em 7.6em;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: start;
+}
+
+footer .logo {
+  margin-bottom: 2.5em;
+}
+.end-content {
+  display: flex;
+}
+
+.location {
+  width: 32%;
+  margin-right: 8em;
+}
+
+.location div {
+  display: flex;
+}
+.location p {
+  margin-bottom: 1.6em;
+  line-height: 23px;
+  font-weight: 300;
+}
+
+.location span:first-child {
+  margin-right: 1.5em;
+}
+.location span {
+  margin-right: 1em;
+}
+
+.about ul {
+  margin-right: 7.7em;
+}
+
+.carier ul {
+  margin-right: 9.9em;
+}
+ul li {
+  list-style: none;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-bottom: 1.2em;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #f6fffe;
+  font-size: 1.1rem;
+}
+
+.socials ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socials ul div {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.9em;
+}
+.socials ul div a {
+  font-size: 0.9rem;
+  color: #f6fffe;
+}
+
+.Copyright {
+  position: absolute;
+  top: 89%;
+  right: 12em;
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
